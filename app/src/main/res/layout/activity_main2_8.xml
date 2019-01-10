@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="时间单位换算"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.11">
+
+        <Spinner
+            android:id="@+id/spinner_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03" />
+
+        <EditText
+            android:id="@+id/editText1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="请输入"
+            android:textColor="@android:color/holo_purple" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.11">
+
+
+        <TextView
+            android:id="@+id/textView177"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="分钟" />
+
+        <EditText
+            android:id="@+id/editText1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textColor="@android:color/holo_purple" />
+        <TextView
+            android:id="@+id/textView187"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="min" />
+
+
+    </LinearLayout>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="3"
+        android:rowCount="5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button1_9"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:paddingBottom="10dp"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/button1_8"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:paddingBottom="10dp"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/button1_7"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:paddingBottom="10dp"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/button1_6"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:paddingBottom="10dp"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/button1_5"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:paddingBottom="10dp"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/button1_4"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:paddingBottom="10dp"
+            android:text="4" />
+
+
+
+        <Button
+            android:id="@+id/button1_3"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:paddingBottom="10dp"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/button1_2"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:paddingBottom="10dp"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/button1_1"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:paddingBottom="10dp"
+            android:text="1"/>
+
+        <Button
+            android:id="@+id/button1_0"
+            android:layout_height="50dp"
+            android:layout_width="130dp"
+            android:text="0" />
+        <Button
+            android:id="@+id/button1_p"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:layout_height="50dp"
+            android:text="减" />
+        <Button
+            android:id="@+id/button1_pp"
+            android:layout_columnSpan="3"
+            android:layout_gravity="fill"
+            android:layout_height="50dp"
+            android:text="全删"
+            />
+    </GridLayout>
+
+
+
+</LinearLayout>

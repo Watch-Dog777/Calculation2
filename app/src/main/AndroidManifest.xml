@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.administrator.calculation2">
+    package="com.example.administrator.myapplicationhahah">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher8888"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -16,6 +18,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".MainActivity_help" />
+        <activity android:name=".Main2Activity_1" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main2Activity_3" />
+        <activity android:name=".Main2Activity_4" />
+        <activity android:name=".Main2Activity_5" />
+        <activity android:name=".Main2Activity_6" />
+        <activity android:name=".Main2Activity_7" />
+        <activity android:name=".Main2Activity_8" />
+        <activity android:name=".Main2Activity_9"></activity>
     </application>
 
 </manifest>
